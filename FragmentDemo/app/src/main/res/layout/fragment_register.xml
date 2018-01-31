@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="#EF5350">
+
+    <EditText
+        android:id="@+id/text_name"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFCDD2"
+        android:hint="Your name"
+        />
+
+    <EditText
+        android:id="@+id/text_id"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFCDD2"
+        android:hint="id"
+        />
+
+    <EditText
+        android:id="@+id/text_password"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/text_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFCDD2"
+        android:hint="Password"
+        />
+
+    <EditText
+        android:id="@+id/text_email"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/text_password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFCDD2"
+        android:hint="Email"
+        />
+
+    <Button
+        android:id="@+id/button_register1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_email"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:text="register"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
